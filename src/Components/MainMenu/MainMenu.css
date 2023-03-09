@@ -1,0 +1,18 @@
+.fa-smile-o{
+    transition: 500ms;
+    animation: color-change 10s infinite;
+}
+
+@keyframes color-change{
+    0%{
+        color: #05c46b;
+    }
+
+    50%{
+        color: #575fcf;
+    }
+
+    100%{
+        color: #e74c3c;
+    }
+}

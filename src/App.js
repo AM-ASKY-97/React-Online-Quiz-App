@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { useState, useContext } from 'react';
 import './App.css';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import MainMenu from './Components/MainMenu/MainMenu';
+import Quiz from './Components/Quiz/HtmlQuiz/Quiz';
+import EndScreen from './Components/EndScreen/EndScreen';
+
+import { QuizContext } from './Helpers/Contexts';
+import CssQuiz from './Components/Quiz/CssQuiz/CssQuiz';
 
 function App() {
+
+  const [gameStart, setGameStart] = useState('MainMenu');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+
+      <QuizContext.Provider value={{gameStart, setGameStart}}>
+        {gameStart === "MainMenu" && <MainMenu />}
+        {gameStart === "Quiz" && <Quiz />}
+        {gameStart === "CssQuiz" && <CssQuiz />}
+        {gameStart === "EndScreen" && <EndScreen />}
+      </QuizContext.Provider>
+
+      <Footer />
     </div>
   );
 }
