@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Online-Quiz-App/static/css/main.e972bfd8.css",
+    "main.js": "/React-Online-Quiz-App/static/js/main.eaf42637.js",
+    "static/js/787.f539efcb.chunk.js": "/React-Online-Quiz-App/static/js/787.f539efcb.chunk.js",
+    "static/media/Jan-Success_1.jpg": "/React-Online-Quiz-App/static/media/Jan-Success_1.d49407abb6e7ecc22fea.jpg",
+    "static/media/m-logo.png": "/React-Online-Quiz-App/static/media/m-logo.4e4d5c917ea7aa9484e5.png",
+    "static/media/3684.png": "/React-Online-Quiz-App/static/media/3684.4e53de0c6bd9c0fb6893.png",
+    "static/media/Coding.svg": "/React-Online-Quiz-App/static/media/Coding.50d464ddf658e1cf70e1b1ee44ae48e3.svg",
+    "static/media/whatsapp.png": "/React-Online-Quiz-App/static/media/whatsapp.f2e80821c786a21249fa.png",
+    "static/media/face.png": "/React-Online-Quiz-App/static/media/face.54b654601ea941cc9c3b.png",
+    "static/media/Link.png": "/React-Online-Quiz-App/static/media/Link.4e7351447b1da69f75f3.png",
+    "static/media/Youtube.png": "/React-Online-Quiz-App/static/media/Youtube.d3314fa414e7fa61a9f9.png",
+    "index.html": "/React-Online-Quiz-App/index.html",
+    "main.e972bfd8.css.map": "/React-Online-Quiz-App/static/css/main.e972bfd8.css.map",
+    "main.eaf42637.js.map": "/React-Online-Quiz-App/static/js/main.eaf42637.js.map",
+    "787.f539efcb.chunk.js.map": "/React-Online-Quiz-App/static/js/787.f539efcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e972bfd8.css",
+    "static/js/main.eaf42637.js"
+  ]
+}
