@@ -54,7 +54,7 @@ const Footer = () => {
                 <hr />
 
                 <div className="pb-3" style={{ fontSize: '0.9rem', textAlign: 'justify', fontWeight: '300' }}>Created By <span
-                    className="name">Asky AM</span> | &#169; 2022 All rights reserved.</div>
+                    className="name">Asky AM</span> | &#169; 2023 All rights reserved.</div>
             </div>
         </div>
     )
