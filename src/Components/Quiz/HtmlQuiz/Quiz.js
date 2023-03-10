@@ -82,11 +82,9 @@ const Quiz = () => {
 
                                 </div>
                                 <div className="card-footer">
-                                    <div className="row ">
-                                        <div className="col-12 col-lg-5 mb-2"><a href="html-answer.html"
-                                            className="btn btn-success">Correct answers</a></div>
-                                        <div className='col-12 col-lg-3 mb-2 '><button className="btn btn-primary" onClick={reStart}>Try Again</button></div>
-                                        <div className="col-12 col-lg-4"><button className="btn btn-warning" onClick={() => setGameStart("MainMenu")}>Back to Quizzes</button></div>
+                                    <div className="row text-center">
+                                        <div className='col-12 col-lg-6 mb-2 '><button className="btn btn-primary" onClick={reStart}>Try Again</button></div>
+                                        <div className="col-12 col-lg-6"><button className="btn btn-warning" onClick={() => setGameStart("MainMenu")}>Back to Quizzes</button></div>
                                     </div>
                                 </div>
                             </div>
