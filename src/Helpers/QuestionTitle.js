@@ -29,7 +29,8 @@ export const QuestionTitle = [
             {
                 Title:'JavaScript', 
                 discription:'10 Questions covering the basics of JavaScript',
-                color : '#ffc0c7'
+                color : '#ffc0c7',
+                btnAction : 'JavaScriptQuiz',
             },
         ]
     }

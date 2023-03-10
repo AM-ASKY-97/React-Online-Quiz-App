@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import MainMenu from './Components/MainMenu/MainMenu';
 import Quiz from './Components/Quiz/HtmlQuiz/Quiz';
 import EndScreen from './Components/EndScreen/EndScreen';
+import JavaScriptQuiz from './Components/Quiz/JavaScript/JavaScriptQuiz';
 
 import { QuizContext } from './Helpers/Contexts';
 import CssQuiz from './Components/Quiz/CssQuiz/CssQuiz';
@@ -23,6 +24,7 @@ function App() {
         {gameStart === "Quiz" && <Quiz />}
         {gameStart === "CssQuiz" && <CssQuiz />}
         {gameStart === "PhpQuiz" && <PhpQuiz />}
+        {gameStart === "JavaScriptQuiz" && <JavaScriptQuiz />}
         {gameStart === "EndScreen" && <EndScreen />}
       </QuizContext.Provider>
 
