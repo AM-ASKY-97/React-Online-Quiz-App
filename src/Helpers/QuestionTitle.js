@@ -23,7 +23,8 @@ export const QuestionTitle = [
             {
                 Title:'PHP', 
                 discription:'10 Questions covering the basics of PHP',
-                color : '#fff4a3'
+                color : '#fff4a3',
+                btnAction : 'PhpQuiz',
             },
             {
                 Title:'JavaScript', 
